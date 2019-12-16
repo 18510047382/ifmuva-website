@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fleet.css">
+    <link rel="stylesheet" href="//unpkg.com/view-design/dist/styles/iview.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+    <script src="//unpkg.com/view-design/dist/iview.min.js"></script>
+
+    <title>IFMUVA - 机队</title>
+</head>
+
+<body>
+    <nav></nav>
+
+    <main>
+        <br>
+        <br>
+        <h1>机队 - Fleet</h1>
+        <br>
+        <br>
+        <div id="fleet-container">
+            <i-table :columns="columns" :data="fleet"></i-table>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/fleet.js"></script>
+</body>
+
+</html>

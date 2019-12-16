@@ -55,13 +55,35 @@ nav a:hover {
     right: 40px;
 }
 
+main {
+    box-sizing: border-box;
+    padding-bottom: 200px;
+}
+
 footer {
     height: 200px;
     width: 100%;
     background: #f0f0f0;
-    position: relative;
+    position: fixed;
+    bottom: 0;
     box-sizing: border-box;
     padding-top: 30px !important;
+    z-index: 999999;
+}
+
+#footer-close {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 40px;e
+}
+
+#footer-close i {
+    position: relative;
+    bottom: 12px;
 }
 
 #footer-center {

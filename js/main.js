@@ -14,6 +14,7 @@
     xmlhttp2.onreadystatechange = function() {
         if (xmlhttp2.readyState == 4 && xmlhttp2.status == 200) {
             document.querySelector("footer").innerHTML = xmlhttp2.responseText;
+
             new Vue({
                 el: '#footer-join-us',
                 methods: {
@@ -22,6 +23,15 @@
                             title: 'Join Us（加入 IFMUVA）',
                             content: '欢迎加入我们的官方QQ群！QQ群号：991489400'
                         })
+                    }
+                }
+            })
+
+            new Vue({
+                el: '#footer-close',
+                methods: {
+                    closeFooter: function() {
+                        document.querySelector('footer').style.display = 'none';
                     }
                 }
             })

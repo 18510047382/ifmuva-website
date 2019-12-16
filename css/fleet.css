@@ -1,0 +1,9 @@
+main {
+    width: 100%;
+    text-align: center;
+}
+
+#fleet-container {
+    width: 90%;
+    margin: auto;
+}
