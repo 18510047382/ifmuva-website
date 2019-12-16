@@ -15,6 +15,6 @@
     })
 
     new Vue({
-        el: '#join-us'
+        el: '#footer-join-us'
     })
 }());
