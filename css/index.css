@@ -1,0 +1,151 @@
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    box-shadow: 1px 1px 1px #f0f0f0;
+    box-sizing: border-box;
+    padding: 0 70px !important;
+}
+
+nav a {
+    display: inline-block;
+    height: 70px;
+    color: black !important;
+    text-align: center;
+    font-size: 16px;
+    line-height: 70px;
+    transition: background .5s;
+    background: white;
+    box-sizing: border-box;
+    padding: 0 16px;
+}
+
+nav a:hover {
+    background: #f0f0f0;
+}
+
+#nav-logo {
+    height: 70px;
+    width: 70px;
+    background: url(../img/logo-alpha.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#nav-logo-a:hover {
+    background: white;
+}
+
+#nav-right {
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+}
+
+#banner span:first-child {
+    font-size: 35px;
+}
+
+#banner {
+    height: 350px;
+    width: 100%;
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+#muva-info {
+    height: 180px;
+    width: 100%;
+    text-align: center;
+}
+
+.muva-info-block {
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: calc(100% / 3);
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+.muva-info-block h2 {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.muva-info-block h3 {
+    font-size: 45px;
+}
+
+#join-us {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#about {
+    height: 350px;
+    width: 100%;
+    color: black;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+
+#about-card {
+    display: inline-block;
+}
+
+#about-intro {
+    display: inline-block;
+    height: 130px;
+    width: calc(100% - 450px - 80px - 25px);
+    margin-left: 25px;
+    position: relative;
+    bottom: 40px;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background: #f0f0f0;
+    position: relative;
+}
+
+#footer-center {
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
