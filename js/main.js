@@ -10,7 +10,7 @@
     xmlhttp.open("GET", "template/nav.html", true);
     xmlhttp.send();
 
-    if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') return;
+    if (location.pathname !== '/' && location.pathname !== '/index.html') return;
 
     var xmlhttp2 = new XMLHttpRequest();
     xmlhttp2.onreadystatechange = function() {
