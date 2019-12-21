@@ -5,8 +5,26 @@
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             document.querySelector("nav").innerHTML = xmlhttp.responseText;
+
+            var navCenterEl = document.querySelector("#nav-center"),
+                navCenterInnerEl = document.querySelector("#nav-center-inner");
+
+            navCenterEl.onmouseover = function() {
+                navCenterInnerEl.style.display = 'block';
+            }
+            navCenterInnerEl.onmouseover = function() {
+                navCenterInnerEl.style.display = 'block';
+            }
+
+            navCenterEl.onmouseout = function() {
+                navCenterInnerEl.style.display = 'none';
+            }
+            navCenterInnerEl.onmouseout = function() {
+                navCenterInnerEl.style.display = 'none';
+            }
         }
     }
+
     xmlhttp.open("GET", "template/nav.html", true);
     xmlhttp.send();
 

@@ -55,6 +55,22 @@ nav a:hover {
     right: 40px;
 }
 
+.subnav {
+    background: white;
+    border: 1px solid #f0f0f0;
+}
+
+.subnav a {
+    display: block;
+    padding: 0 20px;
+}
+
+#nav-center-inner {
+    position: absolute;
+    right: -32px;
+    display: none;
+}
+
 main {
     box-sizing: border-box;
 }
