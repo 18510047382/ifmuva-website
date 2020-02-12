@@ -4,29 +4,19 @@
     new Vue({
         el: '#fleet-container',
         data: {
-            columns: [{
-                    title: 'Manufacturer',
-                    key: 'man'
+            fleet: [{
+                    img: 'img/aircraft/a350.jpg',
+                    mod: 'Airbus 空中客车 A350-900',
+                    icao: 'A359',
+                    intro: 'kldkdl',
+                    content: '主要内容'
                 },
                 {
-                    title: 'Model',
-                    key: 'mod'
-                },
-                {
-                    title: 'Publish Time',
-                    key: 'pub'
-                }
-            ],
-            fleet: [
-                {
-                    man: 'Airbus',
-                    mod: 'A350-900',
-                    pub: '2019-12-10'
-                },
-                {
-                    man: 'Boeing',
-                    mod: 'B777-200F',
-                    pub: 'Unknown'
+                    img: '',
+                    mod: 'Boeing 波音 B777-200F',
+                    icao: 'B77F',
+                    intro: 'kldkdl',
+                    content: '主要内容'
                 }
             ]
         }

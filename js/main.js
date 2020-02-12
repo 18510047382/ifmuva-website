@@ -6,6 +6,7 @@
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             document.querySelector("nav").innerHTML = xmlhttp.responseText;
 
+            // nav center
             var navCenterEl = document.querySelector("#nav-center"),
                 navCenterInnerEl = document.querySelector("#nav-center-inner");
 
@@ -22,13 +23,32 @@
             navCenterInnerEl.onmouseout = function() {
                 navCenterInnerEl.style.display = 'none';
             }
+
+
+            // nav about
+            var navAboutEl = document.querySelector("#nav-about"),
+                navAboutInnerEl = document.querySelector("#nav-about-inner");
+
+            navAboutEl.onmouseover = function() {
+                navAboutInnerEl.style.display = 'block';
+            }
+            navAboutInnerEl.onmouseover = function() {
+                navAboutInnerEl.style.display = 'block';
+            }
+
+            navAboutEl.onmouseout = function() {
+                navAboutInnerEl.style.display = 'none';
+            }
+            navAboutInnerEl.onmouseout = function() {
+                navAboutInnerEl.style.display = 'none';
+            }
         }
     }
 
     xmlhttp.open("GET", "template/nav.html", true);
     xmlhttp.send();
 
-    if (location.pathname !== '/' && location.pathname !== '/index.html') return;
+    if (location.pathname !== '/' && location.pathname !== '/index.html' && location.pathname !== '/websites/ifmuva/index.html') return;
 
     var xmlhttp2 = new XMLHttpRequest();
     xmlhttp2.onreadystatechange = function() {

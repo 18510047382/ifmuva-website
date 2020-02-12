@@ -3,13 +3,10 @@ main {
     text-align: center;
 }
 
-#staff-container {
-
-}
-
 .card-item {
-    text-align:center;
+    text-align: center;
     display: inline-block;
     margin: 20px 15px;
     width: 320px;
+    vertical-align: top;
 }

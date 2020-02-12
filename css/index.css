@@ -1,20 +1,14 @@
-#banner span:first-child {
-    font-size: 35px;
-}
-
 #banner {
     height: 350px;
     width: 100%;
-    background: url(../img/banner.jpg);
+}
+
+#banner .carousel {
+    height: 350px;
+    width: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
     background-size: cover;
-    font-size: 40px;
-    color: white;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 100px;
+    background-position: center 40%;
 }
 
 #muva-info {
@@ -41,32 +35,4 @@
 
 .muva-info-block h3 {
     font-size: 45px;
-}
-
-#about {
-    height: 350px;
-    width: 100%;
-    color: black;
-    box-sizing: border-box;
-    padding: 30px 40px;
-    text-align: center;
-}
-
-#about h2 {
-    font-size: 30px;
-    font-weight: 400;
-    font-family: system-ui;
-}
-
-#about-card {
-    display: inline-block;
-}
-
-#about-intro {
-    display: inline-block;
-    height: 130px;
-    width: calc(100% - 450px - 80px - 25px);
-    margin-left: 25px;
-    position: relative;
-    bottom: 40px;
 }

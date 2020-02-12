@@ -1,10 +1,5 @@
 main {
     width: 100%;
     text-align: center;
-}
-
-#routes-table {
-    width: 90%;
-    margin: auto;
-    border: 1px solid #f0f0f0;
+    padding: 0 100px;
 }

@@ -19,9 +19,20 @@
 
     <main>
         <div id="banner">
-            <span>Welcome to</span>
-            <br>
-            <span>China Eastern Airlines Virtual</span>
+            <carousel height="350px" autoplay autoplay-speed="2500" v-model="nowImg" loop>
+                <carousel-item>
+                    <div style="background-image: url(img/banner/0.jpg)" class="carousel">1</div>
+                </carousel-item>
+                <carousel-item>
+                    <div style="background-image: url(img/banner/1.jpg)" class="carousel">2</div>
+                </carousel-item>
+                <carousel-item>
+                    <div style="background-image: url(img/banner/2.jpg)" class="carousel">3</div>
+                </carousel-item>
+                <carousel-item>
+                    <div style="background-image: url(img/banner/3.jpg)" class="carousel">4</div>
+                </carousel-item>
+            </carousel>
         </div>
 
         <div id="muva-info">
@@ -39,19 +50,7 @@
             </div>
         </div>
 
-        <div id="about">
-            <h2>About MUVA - China Eastern Airlines Virtual</h2>
-            <br>
-            <br>
-            <card id="about-card" style="width:450px">
-                <div style="text-align:center">
-                    <img width="400px" src="img/logo.png">
-                </div>
-            </card>
-            <div id="about-intro">
-                China Eastern Airlines Virtual was founded in 2019-12-15 and is headquartered in Beijing, China and Shanghai, China, with more than 20 routes. At the same time we also have A350, B777-200F.
-            </div>
-        </div>
+
     </main>
 
     <footer></footer>

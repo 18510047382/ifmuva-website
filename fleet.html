@@ -24,7 +24,15 @@
         <br>
         <br>
         <div id="fleet-container">
-            <i-table :columns="columns" :data="fleet"></i-table>
+            <list item-layout="vertical">
+                <list-item v-for="item in fleet" :key="item.mod">
+                    <list-item-meta :title="item.mod" :description="item.intro"></list-item-meta>
+                    {{ item.content }}
+                    <template slot="extra">
+                        <img :src="item.img" style="height: 280px">
+                    </template>
+                </list-item>
+            </list>
         </div>
     </main>
 

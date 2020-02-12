@@ -38,11 +38,12 @@ nav a:hover {
 }
 
 #nav-logo {
-    height: 70px;
-    width: 70px;
-    background: url(../img/logo-alpha.jpg);
+    height: 61px;
+    width: 200px;
+    background: url(../img/logo.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-top: 5px;
 }
 
 #nav-logo-a:hover {
@@ -56,6 +57,7 @@ nav a:hover {
 }
 
 .subnav {
+    width: 150px;
     background: white;
     border: 1px solid #f0f0f0;
 }
@@ -67,7 +69,14 @@ nav a:hover {
 
 #nav-center-inner {
     position: absolute;
-    right: -32px;
+    display: none;
+    right: 150px;
+    z-index: 2;
+}
+
+#nav-about-inner {
+    position: absolute;
+    right: 50px;
     display: none;
     z-index: 2;
 }
