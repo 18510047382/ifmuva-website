@@ -28,8 +28,11 @@
                 <list-item v-for="item in fleet" :key="item.mod">
                     <list-item-meta :title="item.mod" :description="item.intro"></list-item-meta>
                     {{ item.content }}
+                    <br>
+                    <br>
+                    {{ item.content_cn }}
                     <template slot="extra">
-                        <img :src="item.img" style="height: 280px">
+                        <img :src="'img/aircraft/' + item.img + '.jpg'" style="height: 280px">
                     </template>
                 </list-item>
             </list>
