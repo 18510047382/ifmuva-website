@@ -24,7 +24,16 @@
         <iframe class="airtable-embed" src="https://airtable.com/embed/shrgKsR4vuCYoXQIu?backgroundColor=grayLight" frameborder="0" onmousewheel="" width="100%" height="955px" style="background: transparent;"></iframe>
     </main>
 
+    <div id="modal">
+        <modal v-model="modal" title="Tips" @on-ok="onOK" ok-text="OK" cancel-text="Cancel">
+            <p>It looks like your browser language is in English, do you want redirect you to the Google registration form page?</p>
+            <br>
+            <p>If you are in Mainland China and do not want to use the VPN, click Cancel.</p>
+        </modal>
+    </div>
+
     <script src="js/main.js"></script>
+    <script src="js/register.js"></script>
 </body>
 
 </html>

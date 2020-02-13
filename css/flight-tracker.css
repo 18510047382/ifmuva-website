@@ -1,7 +1,8 @@
 main {
-    height: 600px;
+    height: calc(100% - 70px);
 }
 
 iframe {
+    height: 100%;
     border: none;
 }
