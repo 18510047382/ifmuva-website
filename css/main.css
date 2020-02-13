@@ -37,6 +37,14 @@ nav a:hover {
     background: #f0f0f0;
 }
 
+#nav-lang {
+    padding: 0 5px;
+}
+
+#nav-lang:hover {
+    background: white;
+}
+
 #nav-logo {
     height: 61px;
     width: 200px;
@@ -67,16 +75,30 @@ nav a:hover {
     padding: 0 20px;
 }
 
-#nav-center-inner {
+#nav-center-inner-en {
     position: absolute;
     display: none;
-    right: 150px;
+    right: 208px;
     z-index: 2;
 }
 
-#nav-about-inner {
+#nav-about-inner-en {
     position: absolute;
-    right: 50px;
+    right: 108px;
+    display: none;
+    z-index: 2;
+}
+
+#nav-center-inner-cn {
+    position: absolute;
+    display: none;
+    right: 223px;
+    z-index: 2;
+}
+
+#nav-about-inner-cn {
+    position: absolute;
+    right: 130px;
     display: none;
     z-index: 2;
 }

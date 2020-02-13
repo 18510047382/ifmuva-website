@@ -4,50 +4,57 @@
 
 <div id="nav-right">
     <a id="nav-center" href="#">
-        Pilot Center
+        {{ pc }}
     </a>
 
-    <div id="nav-center-inner" class="subnav">
+    <div id="nav-center-inner-{{ lang }}" class="subnav">
         <a href="register.html">
-            Register
+            {{ reg }}
         </a>
 
         <a href="flight-center.html">
-            Flight Center
+            {{ fc }}
         </a>
 
         <a href="activity-center.html">
-            Activity Center
+            {{ ac }}
         </a>
 
         <a href="allPilots.html">
-            All Pilots
+            {{ ap }}
         </a>
     </div>
 
     <a id="nav-about" href="#">
-        About
+        {{ at }}
     </a>
 
-    <div id="nav-about-inner" class="subnav">
+    <div id="nav-about-inner-{{ lang }}" class="subnav">
         <a href="airlines.html">
-            Airlines
+            {{ al }}
         </a>
 
         <a href="routes.html">
-            Routes
+            {{ rt }}
         </a>
 
         <a href="fleet.html">
-            Fleet
+            {{ ft }}
         </a>
 
         <a href="staff.html">
-            Staff
+            {{ sf }}
         </a>
     </div>
 
     <a href="flight-tracker.html">
-        Tracker
+        {{ tr }}
+    </a>
+
+    <a id="nav-lang" href="#">
+        <i-switch v-model="open" @on-change="change">
+            <span slot="open">中</span>
+            <span slot="close">En</span>
+        </i-switch>
     </a>
 </div>
