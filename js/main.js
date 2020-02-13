@@ -103,7 +103,13 @@
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             window.navHTML = xmlhttp.responseText;
             if (getCookie('lang') === '') {
-                renderingNav('en');
+                var lang = navigator.language || navigator.userLanguage;
+                lang = lang.substr(0, 2);
+                if (lang == 'zh') {
+                    renderingNav('cn');
+                } else {
+                    renderingNav('en');
+                }
                 return;
             }
             renderingNav(getCookie('lang'));
