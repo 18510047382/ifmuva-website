@@ -3,6 +3,7 @@
 
     var langs = {
         en: {
+            pt: 'Photos',
             pc: 'Pilot Center',
             reg: 'Register',
             fc: 'Flight Center',
@@ -17,6 +18,7 @@
             lang: 'en'
         },
         cn: {
+            pt: '相册',
             pc: '飞行员中心',
             reg: '注册',
             fc: '飞行中心',

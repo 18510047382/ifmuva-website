@@ -1,0 +1,45 @@
+main {
+    height: calc(100% - 70px);
+    text-align: center;
+}
+
+#photos-container {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#photos-container img {
+    height: 300px;
+    transition: opacity .1s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#photos-container img:hover {
+    opacity: .8;
+}
+
+#large-photo {
+    height: calc(100% - 100px);
+    width: calc(100% - 200px);
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    z-index: 6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+#shade {
+    background: black;
+    opacity: .4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    display: none;
+}
