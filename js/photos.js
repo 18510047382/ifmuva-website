@@ -3,7 +3,7 @@
     var inner = '',
         pcEl = document.querySelector('#photos-container');
 
-    for (var i = 0; i <= 6; i++) {
+    for (var i = 0; i <= 7; i++) {
         inner += '<img height="300px" width="350px" title="Click to enlarge 点击放大" onclick="enlargePhoto(this)" data-src="img/photos/' + i + '.jpg">';
     }
 
