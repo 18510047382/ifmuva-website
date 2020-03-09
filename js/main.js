@@ -14,6 +14,7 @@
             rt: 'Routes',
             ft: 'Fleet',
             sf: 'Staff',
+            rs: 'Ranking System',
             tr: 'Tracker',
             lang: 'en'
         },
@@ -29,6 +30,7 @@
             rt: '航线',
             ft: '机队',
             sf: '员工',
+            rs: '评分系统',
             tr: '飞行追踪器',
             lang: 'cn'
         }

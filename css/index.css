@@ -36,3 +36,11 @@
 .muva-info-block h3 {
     font-size: 45px;
 }
+
+#muva-about {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 50px;
+    margin-bottom: 30px;
+}
