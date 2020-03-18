@@ -1,0 +1,21 @@
+{
+    "name": "ifmuva",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "c": "git add . && git commit -m 'update' && git push origin master"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/18510047382/ifmuva-website.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/18510047382/ifmuva-website/issues"
+    },
+    "homepage": "https://github.com/18510047382/ifmuva-website#readme"
+}
