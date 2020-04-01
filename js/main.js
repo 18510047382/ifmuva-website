@@ -134,10 +134,7 @@
                 el: '#footer-join-us',
                 methods: {
                     joinUs: function() {
-                        this.$Modal.info({
-                            title: 'Join Us（加入 IFMUVA）',
-                            content: 'Join us on <a href="https://join.slack.com/t/ifmuva/shared_invite/enQtODY3ODkxMDg2NjczLTQwMWRiMTU0OTFkZmU5YWU4ZDk2MGIzYTc1MmQ4NDY3OGM2ZDBmOWM3YTEyZDU4ZTkwNWJmZTNlZmZjOTI5NTY">Slack</a>!<br><br>同时也欢迎加入我们的官方QQ群！QQ群号：991489400。'
-                        })
+                        window.open('register.html');
                     }
                 }
             })
